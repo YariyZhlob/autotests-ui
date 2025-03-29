@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="lxml" />
+            <item index="1" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="3" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="4" class="java.lang.String" itemvalue="graphene" />
+            <item index="5" class="java.lang.String" itemvalue="Flask" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="HW_8.Product.__getitem__" />
+          <option value="check.сlass" />
+          <option value="tests.ya_page_pom.go_to_site.click_price_arrow" />
+          <option value="conftest.webdriver_manager" />
+          <option value="allure" />
+          <option value="pages.main_page.MainPage.wait_visibility_of_element_located" />
+          <option value="pages.main_page.MainPage.click_to_element" />
+          <option value="pages.login_page.LoginPage.loading_page" />
+          <option value="pages.login_page.LoginPage.*" />
+          <option value="pages.order_feed_page.OrderFeedPage.*" />
+          <option value="pages.password_recovery_page.PasswordRecoveryPage.*" />
+          <option value="some_task.Supervisor._Employee__transfer_group" />
+          <option value="requests.models.Response.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
