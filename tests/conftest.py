@@ -36,3 +36,15 @@ def chromium_page_with_state(initialize_browser_state, playwright: Playwright) -
     yield page
     context.close()
     browser.close()
+
+
+@pytest.fixture
+def chromium_page(playwright: Playwright) -> Page:
+    browser = playwright.chromium.launch(headless=False)
+    yield browser.new_page()
+    browser.close()
+
+
+pytest_plugins = (
+    "fixtures.pages"
+)
